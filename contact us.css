@@ -1,0 +1,84 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+     font-family: 'Poppins',  sans-serif; 
+    }
+  body {
+     background: linear-gradient(to right, #4facfe, #00f2fe);
+     min-height: 100vh; display: flex; flex-direction: column; } 
+  .navbar { 
+    background-color: black
+    ;
+    ; padding: 15px; } 
+ .navbar ul { 
+    list-style: none; 
+    display: flex; 
+    justify-content: center;
+     gap: 25px;
+ }
+  .navbar a { color: white;
+     text-decoration: none; 
+     font-weight: 500;
+      transition: 0.3s;
+     }
+   .navbar a:hover { 
+    color: #00f2fe;
+ } 
+  .contact-section { flex: 1; 
+    display: flex;
+     justify-content: center; 
+    align-items: center;
+ } 
+    .container {
+     background: white;
+     padding: 40px;
+      border-radius: 15px;
+       width: 350px; text-align: center; 
+       box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+     }
+    .container h1 { 
+        margin-bottom: 10px;
+     } 
+     .subtitle { 
+        color: gray;
+         margin-bottom: 25px;
+     }
+      
+     .form-box { display: flex; 
+        flex-direction: column; 
+    } 
+
+    .form-box label { 
+        text-align: left;
+         margin: 10px 0 5px;
+          font-size: 14px; }
+     .form-box input { 
+        padding: 10px;
+         border-radius: 8px; 
+         border: 1px solid #ccc;
+          outline: none; transition: 0.3s; 
+        }
+      .form-box input:focus { 
+        border-color: #4facfe;
+         box-shadow: 0 0 5px rgba(79,172,254,0.5);
+         }
+      .form-box button { 
+        margin-top: 20px;
+         padding: 12px; border: none; 
+         border-radius: 8px;
+          background: #4facfe;
+           color: white;
+            font-size: 16px;
+             cursor: pointer; 
+             transition: 0.3s;
+             }
+       .form-box button:hover {
+         background: #00c6ff;
+         transform: scale(1.05);
+          } 
+        .footer { background: #222;
+     color: white;
+      text-align: center; 
+      padding: 20px; 
+    } 
